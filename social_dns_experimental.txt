@@ -1,0 +1,40 @@
+! Title: Social DNS - Experimental
+! Description: Dominios que pueden reducir anuncios/telemetria pero podrian romper funciones. Activar bajo prueba.
+! Version: 1.0
+! Si algo falla, comenta la linea con ! y recarga el filtro.
+
+! --- Meta (riesgo: login con Facebook en otras webs, botones, embeds) ---
+||connect.facebook.net^
+||graph.instagram.com^
+
+! --- Google / YouTube (riesgo: historial, reproductores, sitios con GTM) ---
+||s.youtube.com^
+||imasdk.googleapis.com^
+||googletagmanager.com^
+||www.googletagmanager.com^
+||app-measurement.com^
+||firebase-settings.crashlytics.com^
+||settings.crashlytics.com^
+||reports.crashlytics.com^
+
+! --- TikTok (riesgo: feed lento, errores de configuracion o videos) ---
+||log.tiktokv.com^
+||mon.tiktokv.com^
+||mcs.tiktokv.com^
+||log-va.tiktokv.com^
+
+! --- Snapchat (riesgo: pixel y scripts) ---
+||sc-static.net^
+
+! --- Atribucion y analitica movil (riesgo: apps que validan instalacion/licencia) ---
+||app.adjust.com^
+||app.adjust.io^
+||t.appsflyer.com^
+||launches.appsflyer.com^
+||inapps.appsflyer.com^
+||events.appsflyer.com^
+||api.branch.io^
+
+! --- Otros (riesgo: recomendaciones y widgets en webs) ---
+||static.criteo.net^
+||widgets.pinterest.com^

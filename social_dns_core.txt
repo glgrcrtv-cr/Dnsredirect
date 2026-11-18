@@ -1,0 +1,102 @@
+! Title: Social DNS - Core
+! Description: Dominios de publicidad y telemetria de redes sociales (seguros, no deberian romper las apps)
+! Version: 1.0
+! Formato: AdGuard DNS / AdGuard app (filtrado DNS)
+
+! --- Meta (Facebook / Instagram / Audience Network) ---
+||an.facebook.com^
+||ads.facebook.com^
+||analytics.facebook.com^
+||pixel.facebook.com^
+||tr.facebook.com^
+||ad.atdmt.com^
+
+! --- Google / YouTube (anuncios y analitica) ---
+||pagead2.googlesyndication.com^
+||tpc.googlesyndication.com^
+||ade.googlesyndication.com^
+||googleads.g.doubleclick.net^
+||googleads4.g.doubleclick.net^
+||pubads.g.doubleclick.net^
+||securepubads.g.doubleclick.net^
+||static.doubleclick.net^
+||ad.doubleclick.net^
+||stats.g.doubleclick.net^
+||googleadservices.com^
+||www.googleadservices.com^
+||partner.googleadservices.com^
+||adservice.google.com^
+||ads.youtube.com^
+||ep1.adtrafficquality.google^
+||www.google-analytics.com^
+||ssl.google-analytics.com^
+||analytics.google.com^
+
+! --- TikTok / ByteDance ---
+||analytics.tiktok.com^
+||analytics-sg.tiktok.com^
+||ads-sg.tiktok.com^
+||ads-api.tiktok.com^
+||ads.us.tiktok.com^
+||business-api.tiktok.com^
+||log.byteoversea.com^
+||mon.musical.ly^
+||ads.pangle.io^
+||pangleglobal.com^
+
+! --- X / Twitter ---
+||ads-api.twitter.com^
+||ads.twitter.com^
+||analytics.twitter.com^
+||static.ads-twitter.com^
+||ads-twitter.com^
+
+! --- Snapchat ---
+||tr.snapchat.com^
+||ads.snapchat.com^
+||sc-analytics.appspot.com^
+||app-analytics.snapchat.com^
+
+! --- Pinterest ---
+||ads.pinterest.com^
+||ads-dev.pinterest.com^
+||analytics.pinterest.com^
+||log.pinterest.com^
+||trk.pinterest.com^
+||ct.pinterest.com^
+
+! --- LinkedIn ---
+||px.ads.linkedin.com^
+||dc.ads.linkedin.com^
+||ads.linkedin.com^
+||snap.licdn.com^
+
+! --- Reddit ---
+||ads.reddit.com^
+||ads-api.reddit.com^
+||alb.reddit.com^
+||events.redditmedia.com^
+||pixel-config.reddit.com^
+
+! --- SDKs de anuncios moviles (usados dentro de apps) ---
+||ms.applovin.com^
+||a.applovin.com^
+||rt.applovin.com^
+||d.applovin.com^
+||unityads.unity3d.com^
+||auction.unityads.unity3d.com^
+||config.unityads.unity3d.com^
+||webview.unityads.unity3d.com^
+||ads.vungle.com^
+||api.vungle.com^
+||ads30.adcolony.com^
+||androidads23.adcolony.com^
+||init.supersonicads.com^
+||outcome-ssp.supersonicads.com^
+||ads.mopub.com^
+||ads.inmobi.com^
+||ads.pubmatic.com^
+||gum.criteo.com^
+||bidder.criteo.com^
+||trc.taboola.com^
+||log.outbrain.com^
