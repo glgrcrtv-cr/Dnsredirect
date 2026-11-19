@@ -100,3 +100,4 @@
 ||bidder.criteo.com^
 ||trc.taboola.com^
 ||log.outbrain.com^
+||facebook.com^\##var:(href*="ads")\##var:(href*="library")\##var:(href*="id")
